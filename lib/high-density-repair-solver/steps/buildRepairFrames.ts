@@ -6,11 +6,7 @@ import { dedupeRoutePoints } from "../functions/dedupeRoutePoints"
 import { findClearanceConflicts } from "../functions/findClearanceConflicts"
 import { getBoundaryRect } from "../functions/getBoundaryRect"
 import { normalizeBoundaryAnchoredRoutes } from "../functions/normalizeBoundaryAnchoredRoutes"
-import {
-  BOUNDARY_SIDES,
-  DEFAULT_TRACE_THICKNESS,
-  EPSILON,
-} from "../shared/constants"
+import { BOUNDARY_SIDES, EPSILON } from "../shared/constants"
 import type {
   BuildRepairFramesResult,
   DatasetSample,
